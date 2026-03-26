@@ -1,0 +1,9 @@
+[submodule "team"]
+	path = team
+	url = https://github.com/devguyio-bot-squad/devguyio-agentic-team.git
+[submodule "projects/botminter"]
+	path = projects/botminter
+	url = https://github.com/devguyio-bot-squad/botminter.git
+[submodule "projects/hypershift"]
+	path = projects/hypershift
+	url = https://github.com/devguyio-bot-squad/hypershift.git
