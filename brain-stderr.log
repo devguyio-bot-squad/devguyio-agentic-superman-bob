@@ -1,0 +1,21 @@
+2026-03-26T19:10:46.381548Z  INFO bm::commands::brain_run: Brain multiplexer starting workspace=/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob acp_binary=claude-agent-acp
+2026-03-26T19:10:46.382455Z  INFO bm::commands::brain_run: Bridge adapter enabled — spawning reader and writer room_id=Some("!QRIgtydfxdru0Nr7K5:localhost") own_user_id=@superman-bob:localhost mode="locked"
+2026-03-26T19:10:46.395772Z  INFO bm::brain::bridge_adapter: Joined Matrix room room_id=!QRIgtydfxdru0Nr7K5:localhost
+2026-03-26T19:10:46.397428Z  INFO bm::brain::bridge_adapter: Bridge reader initial sync complete
+2026-03-26T19:10:46.406275Z  INFO bm::brain::heartbeat: Heartbeat timer started interval_secs=60
+2026-03-26T19:10:47.192494Z  INFO bm::brain::multiplexer: Brain multiplexer session started session_id=728bd3be-d21b-467c-a5b6-b9f013857e7d
+2026-03-26T19:11:01.170640Z  INFO bm::brain::bridge_adapter: Injected bridge message into multiplexer sender=@bmadmin:localhost body_len=686
+2026-03-26T19:11:01.170830Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=human prompt_len=717
+2026-03-26T19:11:01.170898Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-26T19:11:37.170285Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-26T19:11:37.170357Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-26T19:11:46.406368Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=heartbeat prompt_len=560
+2026-03-26T19:11:46.406555Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-26T19:11:50.024510Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-26T19:11:50.024594Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-26T19:15:04.988437Z  INFO bm::commands::brain_run: Received SIGTERM, shutting down brain
+2026-03-26T19:15:04.988505Z  INFO bm::brain::multiplexer: Brain multiplexer shutting down
+2026-03-26T19:15:04.989006Z  INFO bm::brain::bridge_adapter: Bridge writer stopping (multiplexer shut down)
+2026-03-26T19:15:04.989025Z  INFO bm::brain::heartbeat: Heartbeat timer shutting down
+2026-03-26T19:15:04.989032Z  INFO bm::brain::bridge_adapter: Bridge reader shutting down
+2026-03-26T19:15:04.989041Z  INFO bm::brain::event_watcher: Event watcher shutting down
