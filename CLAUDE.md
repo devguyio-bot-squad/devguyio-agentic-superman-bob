@@ -4,9 +4,20 @@ This file provides context for operating as the superman team member. Read `team
 
 ## A. Project Context
 
-Your working directory is the project codebase — a clone of the project repository with full access to all source code at `./`. The team repo is cloned into `team/` within the project workspace.
+Your working directory is your member workspace — a repository that links to project codebases and the team repo via git submodules:
 
-[When a real project is assigned, this section will contain project-specific information: build commands, test commands, architecture notes, deployment procedures, etc.]
+- **`projects/<projectname>/`** — Git submodules containing the actual project source code. Each is a full clone of the project repository. This is where you read, modify, and commit code.
+- **`team/`** — Git submodule of the team repository, containing team-wide and project-specific metadata (knowledge, invariants, process).
+- **`team/projects/<projectname>/`** — Team-level metadata (knowledge, invariants) *about* a project. Not the source code itself.
+
+Current projects:
+
+| Project | Submodule Path | Repo |
+|---------|---------------|------|
+| botminter | `projects/botminter` | `devguyio-bot-squad/botminter.git` |
+| hypershift | `projects/hypershift` | `devguyio-bot-squad/hypershift.git` |
+
+When working on a task for a specific project, the source code is at `projects/<projectname>/`. Ralph loops should target that directory.
 
 ## B. Team Member Skills & Capabilities
 
@@ -38,15 +49,18 @@ Eighteen specialized hats are available for different phases of work. Board scan
 ### Workspace Layout
 
 ```
-project-repo-superman/               # Project repo clone (CWD)
-  team/                           # Team repo clone
-    knowledge/, invariants/             # Team-level
-    members/{{member_dir}}/                    # Member config
-    projects/<project>/                 # Project-specific
+superman-bob/                          # Member workspace (CWD)
+  projects/
+    botminter/                         # Git submodule → project source code
+    hypershift/                        # Git submodule → project source code
+  team/                                # Git submodule → team repo
+    knowledge/, invariants/            # Team-level metadata
+    members/{{member_dir}}/            # Member config
+    projects/<project>/                # Project-specific metadata (not source code)
   PROMPT.md → team/members/{{member_dir}}/PROMPT.md
   context.md → team/members/{{member_dir}}/context.md
-  ralph.yml                             # Copy
-  poll-log.txt                          # Board scan audit log
+  ralph.yml                            # Copy
+  poll-log.txt                         # Board scan audit log
 ```
 
 ### Knowledge Resolution
