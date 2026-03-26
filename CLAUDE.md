@@ -17,7 +17,7 @@ Current projects:
 | botminter | `projects/botminter` | `devguyio-bot-squad/botminter.git` |
 | hypershift | `projects/hypershift` | `devguyio-bot-squad/hypershift.git` |
 
-When working on a task for a specific project, the source code is at `projects/<projectname>/`. Ralph loops should target that directory.
+When working on a task for a specific project, the source code is at `projects/<projectname>/`.
 
 ## B. Team Member Skills & Capabilities
 
