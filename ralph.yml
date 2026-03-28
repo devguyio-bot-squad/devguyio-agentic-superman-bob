@@ -3,19 +3,22 @@ event_loop:
   max_iterations: 10000
   max_runtime_seconds: 86400
   persistent: true
+
 cli:
   backend: claude
+
 core:
   guardrails:
-  - Comply with all invariants in team/invariants/, team/projects/<project>/invariants/, and team/members/{{member_dir}}/invariants/
+    - "Comply with all invariants in team/invariants/, team/projects/<project>/invariants/, and team/members/{{member_dir}}/invariants/"
+
 hats:
   po_backlog:
     name: Backlog Manager
     description: Handles po:triage, po:backlog, and po:ready project statuses — helps human evaluate, prioritize, and activate epics via GitHub comments.
     triggers:
-    - po.backlog
+      - po.backlog
     publishes:
-    - po.backlog.failed
+      - po.backlog.failed
     instructions: |
       ## Backlog Manager (GitHub Comment-Based)
 
@@ -83,13 +86,14 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `po.backlog.failed` — the coordinator will re-scan on the next cycle.
+
   po_reviewer:
     name: Review Gater
     description: Handles po review gates — checks for human approval/rejection via GitHub issue comments. Non-blocking.
     triggers:
-    - po.review
+      - po.review
     publishes:
-    - po.review.failed
+      - po.review.failed
     instructions: |
       ## Review Gater (GitHub Comment-Based Supervised Mode)
 
@@ -202,15 +206,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `po.review.failed` — the coordinator will re-scan on the next cycle.
+
   lead_reviewer:
     name: Team Lead Reviewer
     description: Reviews architect work artifacts before they reach the human gate. Direct chain from arch work hats.
     triggers:
-    - lead.review
+      - lead.review
     publishes:
-    - lead.approved
-    - lead.rejected
-    - lead.review.failed
+      - lead.approved
+      - lead.rejected
+      - lead.review.failed
     instructions: |
       ## Team Lead Reviewer
 
@@ -263,14 +268,15 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `lead.review.failed` — the coordinator will re-scan on the next cycle.
+
   arch_designer:
     name: Designer
     description: Produces a design doc for an epic in arch:design status. Direct chain to lead_reviewer.
     triggers:
-    - arch.design
+      - arch.design
     publishes:
-    - lead.review
-    - arch.design.failed
+      - lead.review
+      - arch.design.failed
     instructions: |
       ## Designer
 
@@ -333,14 +339,15 @@ hats:
       If you cannot complete the work (e.g., missing context),
       append a comment using the `github-project` skill's add-comment operation: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.design.failed` — the coordinator will re-scan on the next cycle.
+
   arch_planner:
     name: Planner
     description: Decomposes a design into a story breakdown for an epic in arch:plan status. Direct chain to lead_reviewer.
     triggers:
-    - arch.plan
+      - arch.plan
     publishes:
-    - lead.review
-    - arch.plan.failed
+      - lead.review
+      - arch.plan.failed
     instructions: |
       ## Planner
 
@@ -400,15 +407,16 @@ hats:
       If you cannot complete the work (e.g., missing context),
       append a comment using the `github-project` skill's add-comment operation: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.plan.failed` — the coordinator will re-scan on the next cycle.
+
   arch_breakdown:
     name: Breakdown Executor
     description: Creates story issues (for epics) or GitHub native subtask issues (for bugs) from an approved breakdown. Direct chain to lead_reviewer or bug:in-progress.
     triggers:
-    - arch.breakdown
+      - arch.breakdown
     publishes:
-    - lead.review
-    - bug.in_progress
-    - arch.breakdown.failed
+      - lead.review
+      - bug.in_progress
+      - arch.breakdown.failed
     instructions: |
       ## Breakdown Executor
 
@@ -479,13 +487,14 @@ hats:
       If you cannot complete the work (e.g., missing context, GraphQL API failure),
       append a comment using the `github-project` skill's add-comment operation: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.breakdown.failed` — the coordinator will re-scan on the next cycle.
+
   arch_monitor:
     name: Epic Monitor
     description: Monitors an in-progress epic and advances to acceptance when all stories are done.
     triggers:
-    - arch.in_progress
+      - arch.in_progress
     publishes:
-    - arch.in_progress.failed
+      - arch.in_progress.failed
     instructions: |
       ## Epic Monitor
 
@@ -521,14 +530,15 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.in_progress.failed` — the coordinator will re-scan on the next cycle.
+
   qe_test_designer:
     name: QE Test Designer
     description: Writes test plan and test stubs for a story at qe:test-design status. Direct chain to dev_implementer.
     triggers:
-    - qe.test_design
+      - qe.test_design
     publishes:
-    - dev.implement
-    - qe.test_design.failed
+      - dev.implement
+      - qe.test_design.failed
     instructions: |
       ## QE Test Designer
 
@@ -566,16 +576,17 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `qe.test_design.failed` — the coordinator will re-scan on the next cycle.
+
   dev_implementer:
     name: Developer
     description: Implements the story, runs tests. Triggered by direct chain or rejection loop.
     triggers:
-    - dev.implement
-    - dev.rejected
-    - qe.rejected
+      - dev.implement
+      - dev.rejected
+      - qe.rejected
     publishes:
-    - dev.code_review
-    - dev.implement.failed
+      - dev.code_review
+      - dev.implement.failed
     instructions: |
       ## Developer
 
@@ -621,15 +632,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `dev.implement.failed` — the coordinator will re-scan on the next cycle.
+
   dev_code_reviewer:
     name: Code Reviewer
     description: Reviews implementation code quality. Decoupled review — publishes only approved/rejected.
     triggers:
-    - dev.code_review
+      - dev.code_review
     publishes:
-    - dev.approved
-    - dev.rejected
-    - dev.code_review.failed
+      - dev.approved
+      - dev.rejected
+      - dev.code_review.failed
     instructions: |
       ## Code Reviewer
 
@@ -669,16 +681,17 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `dev.code_review.failed` — the coordinator will re-scan on the next cycle.
+
   qe_verifier:
     name: QE Verifier
     description: Verifies implementation against acceptance criteria. Final quality gate before sign-off.
     triggers:
-    - dev.approved
-    - qe.verify
+      - dev.approved
+      - qe.verify
     publishes:
-    - qe.approved
-    - qe.rejected
-    - qe.verify.failed
+      - qe.approved
+      - qe.rejected
+      - qe.verify.failed
     instructions: |
       ## QE Verifier
 
@@ -733,13 +746,14 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `qe.verify.failed` — the coordinator will re-scan on the next cycle.
+
   sre_setup:
     name: SRE Setup
     description: Sets up test infrastructure for stories or epics that need it.
     triggers:
-    - sre.setup
+      - sre.setup
     publishes:
-    - sre.setup.failed
+      - sre.setup.failed
     instructions: |
       ## SRE Setup
 
@@ -767,15 +781,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `sre.setup.failed` — the coordinator will re-scan on the next cycle.
+
   cw_writer:
     name: Content Writer
     description: Writes documentation for documentation stories. Direct chain to cw_reviewer.
     triggers:
-    - cw.write
-    - cw.rejected
+      - cw.write
+      - cw.rejected
     publishes:
-    - cw.review
-    - cw.write.failed
+      - cw.review
+      - cw.write.failed
     instructions: |
       ## Content Writer
 
@@ -810,15 +825,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `cw.write.failed` — the coordinator will re-scan on the next cycle.
+
   cw_reviewer:
     name: Content Reviewer
     description: Reviews documentation quality. Decoupled review — publishes only approved/rejected.
     triggers:
-    - cw.review
+      - cw.review
     publishes:
-    - cw.approved
-    - cw.rejected
-    - cw.review.failed
+      - cw.approved
+      - cw.rejected
+      - cw.review.failed
     instructions: |
       ## Content Reviewer
 
@@ -856,15 +872,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `cw.review.failed` — the coordinator will re-scan on the next cycle.
+
   qe_investigator:
     name: QE Investigator
     description: Handles bug:investigate status. Reproduces bug, determines simple vs complex, either implements fix (simple) or proposes plan (complex).
     triggers:
-    - qe.investigate
+      - qe.investigate
     publishes:
-    - arch.review
-    - arch.refine
-    - qe.investigate.failed
+      - arch.review
+      - arch.refine
+      - qe.investigate.failed
     instructions: |
       ## QE Investigator
 
@@ -970,15 +987,16 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `qe.investigate.failed` — the coordinator will re-scan on the next cycle.
+
   arch_simple_bug_reviewer:
     name: Arch Simple Bug Reviewer
     description: Reviews simple bug fixes at arch:review status. Approves or escalates to complex track.
     triggers:
-    - arch.review
+      - arch.review
     publishes:
-    - qe.verify
-    - arch.refine
-    - arch.review.failed
+      - qe.verify
+      - arch.refine
+      - arch.review.failed
     instructions: |
       ## Arch Simple Bug Reviewer
 
@@ -1044,14 +1062,15 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.review.failed` — the coordinator will re-scan on the next cycle.
+
   arch_bug_refiner:
     name: Arch Bug Refiner
     description: Refines complex bug plans at arch:refine status. Reviews QE's proposal or handles escalations, can amend/approve.
     triggers:
-    - arch.refine
+      - arch.refine
     publishes:
-    - po.review
-    - arch.refine.failed
+      - po.review
+      - arch.refine.failed
     instructions: |
       ## Arch Bug Refiner
 
@@ -1128,14 +1147,15 @@ hats:
       ### On Failure
       If you cannot complete the work, append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `arch.refine.failed` — the coordinator will re-scan on the next cycle.
+
   bug_monitor:
     name: Bug Monitor
     description: Monitors bug:in-progress status. Tracks GitHub native subtask completion, advances to qe:verify when all done.
     triggers:
-    - bug.in_progress
+      - bug.in_progress
     publishes:
-    - qe.verify
-    - bug.in_progress.failed
+      - qe.verify
+      - bug.in_progress.failed
     instructions: |
       ## Bug Monitor
 
@@ -1189,26 +1209,24 @@ hats:
       ### On Failure
       If you cannot complete the work (e.g., GraphQL query fails), append a comment: `Processing failed: <reason>. Attempt N/3.`
       Publish `bug.in_progress.failed` — the coordinator will re-scan on the next cycle.
+
 tasks:
   enabled: true
+
 memories:
   enabled: true
   inject: auto
   budget: 2000
+
 skills:
   enabled: true
   dirs:
-  - team/coding-agent/skills
-  - team/projects/<project>/coding-agent/skills
-  - team/members/{{member_dir}}/coding-agent/skills
+    - team/coding-agent/skills
+    - team/projects/<project>/coding-agent/skills
+    - team/members/{{member_dir}}/coding-agent/skills
   overrides:
     board-scanner:
       auto_inject: true
+
 RObot:
-  enabled: true
-  timeout_seconds: 600
-  matrix:
-    bot_user_id: '@superman-bob:localhost'
-    room_id: '!UjzcndTmT1TOO4zgtW:localhost'
-    homeserver_url: http://127.0.0.1:8008
-  operator_id: '@bmadmin:localhost'
+  enabled: false
