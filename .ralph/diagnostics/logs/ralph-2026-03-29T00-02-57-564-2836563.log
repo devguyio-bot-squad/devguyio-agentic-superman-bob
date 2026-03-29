@@ -1,0 +1,378 @@
+[2m2026-03-28T23:02:57.580100Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Interactive mode requested but stdout is not a TTY, falling back to autonomous
+[2m2026-03-28T23:02:57.581177Z[0m [33m WARN[0m [2mralph_core::skill_registry[0m[2m:[0m Skills directory does not exist: /home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/team/projects/<project>/coding-agent/skills
+[2m2026-03-28T23:02:57.581217Z[0m [33m WARN[0m [2mralph_core::skill_registry[0m[2m:[0m Skills directory does not exist: /home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/team/members/{{member_dir}}/coding-agent/skills
+[2m2026-03-28T23:02:57.581863Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:02:57.581882Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:02:57.583363Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:02:57.583383Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:05:01.927980Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:05:01.928003Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:05:01.928051Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:05:01.928056Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:05:01.928078Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (881 chars) into prompt
+[2m2026-03-28T23:05:01.928120Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 0 closed) into prompt
+[2m2026-03-28T23:06:45.555362Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:06:45.555414Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:06:45.555512Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:06:45.555523Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:06:45.555589Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1278 chars) into prompt
+[2m2026-03-28T23:06:45.555698Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-28T23:07:11.332512Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:07:11.332533Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:07:11.332589Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:07:11.332595Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:07:11.332629Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1572 chars) into prompt
+[2m2026-03-28T23:07:11.332676Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-28T23:11:05.343045Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:11:05.343077Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:11:05.343161Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:11:05.343172Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:11:05.343221Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (2309 chars) into prompt
+[2m2026-03-28T23:11:05.343322Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-28T23:13:24.641168Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-28T23:13:24.641225Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-28T23:13:24.641451Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:13:24.641466Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:13:24.641552Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:13:24.641562Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:13:24.641611Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (2810 chars) into prompt
+[2m2026-03-28T23:13:24.641694Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-28T23:15:16.714320Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-28T23:15:16.714342Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-28T23:15:16.714504Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:15:16.714513Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:15:16.714572Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:15:16.714578Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:15:16.714606Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (3655 chars) into prompt
+[2m2026-03-28T23:16:58.309101Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-28T23:16:58.309148Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-28T23:16:58.309405Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:16:58.309426Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:16:58.309506Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:16:58.309516Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:16:58.309577Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (4263 chars) into prompt
+[2m2026-03-28T23:18:23.039987Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-28T23:18:23.040019Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-28T23:18:23.040243Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:18:23.040258Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:18:23.040378Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:18:23.040390Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:18:23.040441Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (4609 chars) into prompt
+[2m2026-03-28T23:19:53.267591Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:19:53.267613Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:19:53.267664Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:19:53.267670Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:19:53.267700Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5503 chars) into prompt
+[2m2026-03-28T23:21:04.652174Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:21:04.652205Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:21:04.652308Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:21:04.652320Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:21:04.652371Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5887 chars) into prompt
+[2m2026-03-28T23:21:33.919125Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:21:33.919166Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:21:33.919263Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:21:33.919291Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:21:33.919363Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (6373 chars) into prompt
+[2m2026-03-28T23:23:59.267415Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:23:59.267449Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:23:59.267536Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:23:59.267546Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:23:59.267599Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (7086 chars) into prompt
+[2m2026-03-28T23:25:33.590831Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:25:33.590866Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:25:33.590953Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:25:33.590963Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:25:33.591021Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (7946 chars) into prompt
+[2m2026-03-28T23:25:33.591091Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (4 ready, 4 open, 0 closed) into prompt
+[2m2026-03-28T23:31:48.941320Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:31:48.950066Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:31:48.950182Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:31:48.950194Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:31:48.950252Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (8751 chars) into prompt
+[2m2026-03-28T23:31:48.950343Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (3 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:34:43.675635Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:34:43.675826Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:34:43.675922Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:34:43.675937Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:34:43.675988Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (9524 chars) into prompt
+[2m2026-03-28T23:34:43.676087Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (3 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:37:46.422247Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:37:46.422304Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:37:46.422383Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:37:46.422394Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:37:46.422454Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (10503 chars) into prompt
+[2m2026-03-28T23:37:46.422521Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (3 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:39:21.966642Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:39:21.966671Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:39:21.966733Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:39:21.966739Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:39:21.966766Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (11235 chars) into prompt
+[2m2026-03-28T23:39:21.966809Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (2 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:43:58.645528Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:43:58.645546Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:43:58.645597Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:43:58.645602Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:43:58.645627Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (12068 chars) into prompt
+[2m2026-03-28T23:43:58.645663Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (2 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:46:46.387066Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:46:46.387126Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:46:46.387296Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:46:46.387328Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:46:46.387409Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (12843 chars) into prompt
+[2m2026-03-28T23:46:46.387561Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (2 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:51:51.522136Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:51:51.522156Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:51:51.522202Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:51:51.522208Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:51:51.522237Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (13849 chars) into prompt
+[2m2026-03-28T23:51:51.522284Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (2 ready, 3 open, 1 closed) into prompt
+[2m2026-03-28T23:53:28.267828Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T23:53:28.267858Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T23:53:28.267939Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T23:53:28.267948Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T23:53:28.267997Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (14658 chars) into prompt
+[2m2026-03-28T23:53:28.268085Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 2 open, 2 closed) into prompt
+[2m2026-03-29T00:05:37.569544Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:05:37.578482Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:05:37.578620Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:05:37.578635Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:05:37.578706Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (15821 chars) into prompt
+[2m2026-03-29T00:05:37.578797Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 2 open, 2 closed) into prompt
+[2m2026-03-29T00:09:13.151055Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:09:13.151102Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:09:13.151210Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:09:13.151228Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:09:13.151323Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16103 chars) into prompt
+[2m2026-03-29T00:09:13.151397Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 2 open, 2 closed) into prompt
+[2m2026-03-29T00:12:51.181896Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:12:51.182286Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:12:51.182405Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:12:51.182417Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:12:51.182492Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16284 chars) into prompt
+[2m2026-03-29T00:12:51.182574Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 3 closed) into prompt
+[2m2026-03-29T00:14:16.582788Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:14:16.582809Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:14:16.582860Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:14:16.582866Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:14:16.582896Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16447 chars) into prompt
+[2m2026-03-29T00:14:16.582941Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 3 closed) into prompt
+[2m2026-03-29T00:29:37.345590Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:29:37.354458Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:29:37.354561Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:29:37.354575Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:29:37.354659Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16509 chars) into prompt
+[2m2026-03-29T00:29:37.354731Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 4 closed) into prompt
+[2m2026-03-29T00:33:38.718501Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:33:38.718555Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:33:38.718668Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:33:38.718693Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:33:38.718795Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16645 chars) into prompt
+[2m2026-03-29T00:33:38.718873Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 4 closed) into prompt
+[2m2026-03-29T00:36:28.082448Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:36:28.082483Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:36:28.082575Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:36:28.082590Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:36:28.082673Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16774 chars) into prompt
+[2m2026-03-29T00:36:28.082778Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 4 closed) into prompt
+[2m2026-03-29T00:38:59.332614Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:38:59.332644Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:38:59.332859Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:38:59.332873Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:38:59.332960Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:38:59.332971Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:38:59.333056Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (16923 chars) into prompt
+[2m2026-03-29T00:40:50.899692Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:40:50.899725Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:40:50.899821Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:40:50.899832Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:40:50.899926Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17090 chars) into prompt
+[2m2026-03-29T00:42:06.833533Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:42:06.833568Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:42:06.833670Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:42:06.833687Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:42:06.833769Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17101 chars) into prompt
+[2m2026-03-29T00:45:31.530164Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:45:31.530197Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:45:31.530311Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:45:31.530322Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:45:31.530402Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17159 chars) into prompt
+[2m2026-03-29T00:46:52.231039Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:46:52.231080Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:46:52.231320Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:46:52.231336Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:46:52.231418Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:46:52.231428Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:46:52.231530Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17309 chars) into prompt
+[2m2026-03-29T00:50:00.210746Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:50:00.210780Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:50:00.210999Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:50:00.211016Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:50:00.211103Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:50:00.211113Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:50:00.211199Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17431 chars) into prompt
+[2m2026-03-29T00:51:29.915397Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:51:29.915430Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:51:29.915660Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:51:29.915686Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:51:29.915792Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:51:29.915804Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:51:29.915902Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17481 chars) into prompt
+[2m2026-03-29T00:53:01.267816Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:53:01.267853Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:53:01.268079Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:53:01.268095Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:53:01.268184Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:53:01.268194Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:53:01.268338Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17590 chars) into prompt
+[2m2026-03-29T00:54:22.598578Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T00:54:22.598613Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T00:54:22.598856Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:54:22.598872Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:54:22.598957Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:54:22.598973Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:54:22.599081Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17652 chars) into prompt
+[2m2026-03-29T00:58:11.136391Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:58:11.136421Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:58:11.136502Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:58:11.136512Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:58:11.136620Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17697 chars) into prompt
+[2m2026-03-29T00:58:11.136682Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 0 closed) into prompt
+[2m2026-03-29T00:59:19.442313Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:59:19.442345Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:59:19.442431Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:59:19.442442Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:59:19.442540Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17720 chars) into prompt
+[2m2026-03-29T00:59:19.442612Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T00:59:45.249597Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T00:59:45.249627Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T00:59:45.249707Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T00:59:45.249717Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T00:59:45.249826Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17699 chars) into prompt
+[2m2026-03-29T00:59:45.249880Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T01:01:59.479802Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:01:59.479820Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:01:59.479868Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:01:59.479873Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:01:59.479922Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17818 chars) into prompt
+[2m2026-03-29T01:01:59.479951Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T01:04:13.437496Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:04:13.437515Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:04:13.437565Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:04:13.437571Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:04:13.437628Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17942 chars) into prompt
+[2m2026-03-29T01:08:48.174665Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:08:48.174699Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:08:48.174784Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:08:48.174795Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:08:48.174896Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (17974 chars) into prompt
+[2m2026-03-29T01:11:45.975885Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:11:45.975931Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:11:45.976025Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:11:45.976036Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:11:45.976144Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18099 chars) into prompt
+[2m2026-03-29T01:14:56.127506Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:14:56.127548Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:14:56.127658Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:14:56.127669Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:14:56.127795Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18073 chars) into prompt
+[2m2026-03-29T01:16:53.449796Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:16:53.449819Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:16:53.449870Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:16:53.449876Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:16:53.449930Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18275 chars) into prompt
+[2m2026-03-29T01:29:32.375259Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:29:32.375294Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:29:32.375365Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:29:32.375370Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:29:32.375427Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18332 chars) into prompt
+[2m2026-03-29T01:32:28.749213Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:32:28.749266Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:32:28.749384Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:32:28.749396Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:32:28.749512Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18625 chars) into prompt
+[2m2026-03-29T01:35:21.210886Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:35:21.210918Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:35:21.210999Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:35:21.211009Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:35:21.211141Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18683 chars) into prompt
+[2m2026-03-29T01:37:09.015267Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:37:09.015346Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:37:09.015456Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:37:09.015467Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:37:09.015595Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18802 chars) into prompt
+[2m2026-03-29T01:37:09.015673Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 0 closed) into prompt
+[2m2026-03-29T01:45:39.483231Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:45:39.483301Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:45:39.483401Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:45:39.483413Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:45:39.483549Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18913 chars) into prompt
+[2m2026-03-29T01:45:39.483611Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T01:48:28.909490Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:48:28.909526Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:48:28.909597Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:48:28.909604Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:48:28.909682Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (18992 chars) into prompt
+[2m2026-03-29T01:48:28.909719Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T01:51:53.404609Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:51:53.404629Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:51:53.404681Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:51:53.404687Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:51:53.404751Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19131 chars) into prompt
+[2m2026-03-29T01:51:53.404782Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-03-29T01:54:23.956609Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T01:54:23.956644Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T01:54:23.956818Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:54:23.956834Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:54:23.956954Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:54:23.956967Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:54:23.957091Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19341 chars) into prompt
+[2m2026-03-29T01:55:50.016777Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T01:55:50.016826Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T01:55:50.017057Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:55:50.017073Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:55:50.017185Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:55:50.017196Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:55:50.017368Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19341 chars) into prompt
+[2m2026-03-29T01:57:40.671664Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T01:57:40.671701Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T01:57:40.671900Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:57:40.671915Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:57:40.671995Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:57:40.672005Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:57:40.672132Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19409 chars) into prompt
+[2m2026-03-29T01:59:23.931174Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T01:59:23.931207Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T01:59:23.931363Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T01:59:23.931372Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T01:59:23.931447Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T01:59:23.931453Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T01:59:23.931523Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19462 chars) into prompt
+[2m2026-03-29T02:01:16.484711Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T02:01:16.484759Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T02:01:16.484964Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T02:01:16.484974Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T02:01:16.485066Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T02:01:16.485073Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T02:01:16.485166Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19554 chars) into prompt
+[2m2026-03-29T02:03:09.660511Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T02:03:09.660543Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T02:03:09.660793Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T02:03:09.660815Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T02:03:09.660921Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T02:03:09.660933Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T02:03:09.661072Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19633 chars) into prompt
+[2m2026-03-29T02:04:44.888136Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T02:04:44.888167Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T02:04:44.888328Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T02:04:44.888338Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T02:04:44.888417Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T02:04:44.888426Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T02:04:44.888508Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19686 chars) into prompt
+[2m2026-03-29T02:05:49.947070Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event detected in JSONL [3mtopic[0m[2m=[0mLOOP_COMPLETE
+[2m2026-03-29T02:05:49.947129Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Completion event suppressed - persistent mode active, loop staying alive
+[2m2026-03-29T02:05:49.947505Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-29T02:05:49.947540Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-29T02:05:49.947705Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-29T02:05:49.947724Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-29T02:05:49.947921Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (19685 chars) into prompt
+[2m2026-03-29T02:06:32.485480Z[0m [33m WARN[0m [2mralph::rpc_stdin[0m[2m:[0m Failed to write to stdout, stopping emitter

@@ -1,0 +1,23 @@
+[2m2026-03-28T21:12:08.433189Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Interactive mode requested but stdout is not a TTY, falling back to autonomous
+[2m2026-03-28T21:12:08.433986Z[0m [33m WARN[0m [2mralph_core::skill_registry[0m[2m:[0m Skills directory does not exist: /home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/team/projects/<project>/coding-agent/skills
+[2m2026-03-28T21:12:08.434030Z[0m [33m WARN[0m [2mralph_core::skill_registry[0m[2m:[0m Skills directory does not exist: /home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/team/members/{{member_dir}}/coding-agent/skills
+[2m2026-03-28T21:12:08.434825Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T21:12:08.434844Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T21:12:08.436937Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T21:12:08.436958Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T21:14:00.382682Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T21:14:00.382704Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T21:14:00.382751Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T21:14:00.382757Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T21:14:00.382785Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (724 chars) into prompt
+[2m2026-03-28T21:15:17.234035Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T21:15:17.234075Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T21:15:17.234162Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T21:15:17.234173Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T21:15:17.234214Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1111 chars) into prompt
+[2m2026-03-28T21:16:31.149082Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob"
+[2m2026-03-28T21:16:31.149115Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/agent/memories.md" (exists: true)
+[2m2026-03-28T21:16:31.149203Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-03-28T21:16:31.149214Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (384 chars) into prompt
+[2m2026-03-28T21:16:31.149257Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1547 chars) into prompt
+[2m2026-03-28T21:16:59.315090Z[0m [33m WARN[0m [2mralph::rpc_stdin[0m[2m:[0m Failed to write to stdout, stopping emitter

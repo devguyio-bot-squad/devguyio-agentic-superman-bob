@@ -88,3 +88,145 @@
 2026-03-28T13:52:16Z — board.scan — GraphQL rate limit exhausted (resets 14:15Z). Cannot apply deferred transition #61 qe:verify→arch:sign-off. Using cached board state from cycle 8.
 2026-03-28T13:52:47Z — board.scan — Deferred: #61 qe:verify→arch:sign-off→po:merge→done (GraphQL rate limit). Dispatching dev.implement for #62 (next sequential subtask).
 2026-03-28T13:52:47Z — board.scan — END
+2026-03-28T14:54:16Z — board.scan — START
+2026-03-28T14:54:16Z — board.scan — 54 items found, actionable: po:triage(2), po:plan-review(1), qe:verify(1), dev:implement(6), bug:investigate(6), bug:in-progress(1)
+2026-03-28T14:54:16Z — board.scan — dispatch: po.backlog for #59
+2026-03-28T14:54:16Z — board.scan — END
+2026-03-28T14:55:24Z — po.backlog — #59 triage request exists, no human response, returning control
+2026-03-28T15:03:12Z — board.scan — START
+2026-03-28T15:03:12Z — board.scan — 55 items found, active: po:triage(1), po:plan-review(1), qe:verify(1), dev:implement(6), bug:in-progress(1), bug:investigate(7)
+2026-03-28T15:03:12Z — board.scan — no auto-advance items
+2026-03-28T15:03:12Z — board.scan — dispatching #57 po:plan-review → po.review
+2026-03-28T15:03:12Z — board.scan — END
+2026-03-28T15:08:03Z — board.scan — START (cycle 2, persistent mode)
+2026-03-28T15:08:03Z — board.scan — 15 active issues, #57 at po:plan-review dispatched to po.review
+2026-03-28T15:08:03Z — board.scan — END
+2026-03-28T15:11:44Z — board.scan — START
+2026-03-28T15:12:02Z — board.scan — 1 in-scope issue (project/botminter): #57 at po:plan-review, no human response. All others done.
+2026-03-28T15:12:02Z — board.scan — END — LOOP_COMPLETE (no actionable in-scope work)
+2026-03-28T15:13:51Z — board.scan — START (cycle 5)
+2026-03-28T15:13:51Z — board.scan — 1 in-scope issue (#57 at po:plan-review, human gate, no response)
+2026-03-28T15:13:51Z — board.scan — dispatching po.review for #57
+2026-03-28T15:13:51Z — board.scan — END
+2026-03-28T15:16:18Z — board.scan — #57 at po:plan-review, dispatching po.review (cycle 7)
+2026-03-28T15:18:19Z — board.scan — START
+2026-03-28T15:18:19Z — board.scan — 1 in-scope issue (#57 at po:plan-review), human gate pending
+2026-03-28T15:18:19Z — board.scan — END
+2026-03-28T15:21:34Z — board.scan — START (cycle 11)
+2026-03-28T15:21:34Z — board.scan — 9 in-scope issues found (project/botminter), corrected scope from previous cycles
+2026-03-28T15:21:34Z — board.scan — dispatching #72 (po:triage → po.backlog)
+2026-03-28T15:21:34Z — board.scan — END
+2026-03-28T15:22:39Z — po.backlog — #72 triage request posted, awaiting human response
+2026-03-28T15:26:26Z — board.scan — START (cycle 12)
+2026-03-28T15:26:26Z — board.scan — 17 in-scope issues, 2 at human gates, dispatching dev.implement #67
+2026-03-28T15:26:26Z — board.scan — END
+2026-03-28T15:40:10Z — board.scan — #67 auto-advanced: arch:sign-off → po:merge → done (closed)
+2026-03-28T15:40:10Z — board.scan — dispatching qe.verify for #61
+2026-03-28T15:48:38Z — board.scan — START (cycle 14, event: qe.approved #61)
+2026-03-28T15:48:38Z — board.scan — fixed #67 status (dev:implement → done, closed)
+2026-03-28T15:48:38Z — board.scan — dispatching po.backlog for #75 (po:triage, new issue)
+2026-03-28T15:48:38Z — board.scan — END
+2026-03-28T15:49:44Z — po.backlog — #75 triage request posted, awaiting human response
+2026-03-28T15:51:33Z — board.scan — START
+2026-03-28T15:51:33Z — board.scan — 15 in-scope items (7 done, 8 active). No auto-advance. Dispatching dev.implement for #62.
+2026-03-28T15:51:33Z — board.scan — END
+2026-03-28T16:00:07Z — board.scan — START (Cycle 16, qe.approved #62)
+2026-03-28T16:00:45Z — board.scan — #62 auto-advanced arch:sign-off → done (closed)
+2026-03-28T16:00:45Z — board.scan — dispatching dev.implement for #63
+2026-03-28T16:00:45Z — board.scan — END
+2026-03-28T16:25:07Z — board.scan — URGENT: Human feedback on #56, created #76 (restore cache + --limit), dispatching dev.implement
+2026-03-28T16:43:46Z — board.scan — START
+2026-03-28T16:43:46Z — board.scan — #76 auto-advanced to done. Dispatching dev.implement for #65
+2026-03-28T16:43:46Z — board.scan — END
+2026-03-28T16:57:47Z — board.scan — #65 auto-advanced to done. Dispatching dev.implement for #66.
+2026-03-28T17:05:42Z — board.scan — START
+2026-03-28T17:05:42Z — board.scan — auto-advance #66 arch:sign-off→po:merge→done
+2026-03-28T17:05:42Z — board.scan — dispatching bug.in_progress for #56 (8/8 subtasks complete)
+2026-03-28T17:05:42Z — board.scan — END
+2026-03-28T17:20:03Z — board.scan — START
+2026-03-28T17:20:03Z — board.scan — 10 project/botminter items (7 bug:investigate, 2 po:triage, 1 po:plan-review)
+2026-03-28T17:20:03Z — board.scan — dispatching qe.investigate for #69
+2026-03-28T17:20:03Z — board.scan — END
+2026-03-28T17:35:35Z — board.scan — START
+2026-03-28T17:35:35Z — board.scan — 10 issues found (project/botminter, not done)
+2026-03-28T17:35:35Z — board.scan — dispatch: qe.investigate for #70
+2026-03-28T17:35:35Z — board.scan — END
+2026-03-28T17:42:12Z — board.scan — START
+2026-03-28T17:42:12Z — board.scan — 10 actionable issues found (2 po:triage, 1 po:plan-review, 7 bug:investigate)
+2026-03-28T17:42:12Z — board.scan — dispatching po.backlog for issue #72
+2026-03-28T17:42:12Z — board.scan — END
+2026-03-28T17:46:30Z — board.scan — #72,#75 po:triage waiting human; #57 po:plan-review waiting human; dispatching qe.investigate for #58
+2026-03-28T17:55:58Z — board.scan — Cycle 5: 4 human-gated (skip), 6 bugs at bug:investigate. Dispatching qe.investigate for #60.
+2026-03-28T18:07:30Z — board.scan — START
+2026-03-28T18:07:30Z — board.scan — 5 actionable bugs, 4 human-gated items skipped
+2026-03-28T18:07:30Z — board.scan — dispatching qe.investigate for #68
+2026-03-28T18:07:30Z — board.scan — END
+2026-03-28T18:18:37Z — board.scan — cycle 7: #68 po:plan-review confirmed (human-gated). Dispatching qe.investigate for #70.
+2026-03-28T18:40:21Z — board.scan — cycle 9: 2 bugs at bug:investigate (#73, #79), 6 items human-gated, dispatching qe.investigate for #73
+2026-03-28T18:56:49Z — board.scan — START
+2026-03-28T18:56:49Z — board.scan — 9 active issues (7 human-gated, 1 bug:investigate, 2 done)
+2026-03-28T18:56:49Z — board.scan — dispatch qe.investigate for #79
+2026-03-28T18:56:49Z — board.scan — END
+2026-03-28T19:09:57Z — board.scan — All items human-gated, no actionable work. Emitting LOOP_COMPLETE.
+2026-03-28T19:12:46Z — board.scan — persistent re-scan: no human responses, no new issues, all 8 items human-gated
+2026-03-28T21:16:12Z — board.scan — START
+2026-03-28T21:16:12Z — board.scan — po:triage: #72, #75 | po:plan-review: #57, #58, #68, #71, #73, #79 | done: 16 items
+2026-03-28T21:16:12Z — board.scan — no auto-advance candidates
+2026-03-28T21:16:12Z — board.scan — #72 awaiting human at po:triage, dispatching #75
+2026-03-28T21:16:12Z — board.scan — END
+2026-03-28T23:13:12Z — po.review — issue #68 — posted plan review request (rev 2), awaiting human response
+2026-03-28T23:15:10Z — board.scan — START (task.resume rescan)
+2026-03-28T23:15:10Z — board.scan — 8 items found, all human-gated, no new responses
+2026-03-28T23:15:10Z — board.scan — END — LOOP_COMPLETE
+2026-03-28T23:16:53Z — board.scan — 8 issues, all human-gated, no responses — LOOP_COMPLETE
+2026-03-28T23:18:17Z — board.scan — rescan #3 — 8 issues, all human-gated, no responses — LOOP_COMPLETE
+2026-03-28T23:19:51Z — board.scan — START (rescan #4)
+2026-03-28T23:19:51Z — board.scan — 8 non-done issues, 1 with human response (#68 approved)
+2026-03-28T23:19:51Z — board.scan — dispatching po.review for #68
+2026-03-28T23:19:51Z — board.scan — END
+2026-03-28T23:25:25Z — board.scan — post-breakdown rescan: 4 subtasks at dev:implement (#80-#83), 7 human-gated skipped, dispatching dev.implement for #80
+2026-03-28T23:53:05Z — board.scan — auto-advance — #81 arch:sign-off → po:merge (PR #6 stacked on PR #5)
+2026-03-28T23:53:25Z — board.scan — dispatch — #82 dev:implement — Playwright e2e tests for console pages
+2026-03-29T00:13:57Z — board.scan — auto-advance #82: arch:sign-off → po:merge
+2026-03-29T00:13:57Z — board.scan — dispatch dev.implement for #83 (P4, last subtask)
+2026-03-29T00:38:38Z — board.scan — START (rescan #9 — qe.approved for #83)
+2026-03-29T00:38:38Z — board.scan — auto-advance — #83 arch:sign-off → po:merge
+2026-03-29T00:38:38Z — board.scan — po:merge — #80 PR #5 OPEN, awaiting human merge
+2026-03-29T00:38:38Z — board.scan — po:merge — #81 PR #6 OPEN, awaiting human merge
+2026-03-29T00:38:38Z — board.scan — po:merge — #82 PR #7 OPEN, awaiting human merge
+2026-03-29T00:38:38Z — board.scan — po:merge — #83 PR #8 OPEN, awaiting human merge
+2026-03-29T00:38:38Z — board.scan — gate-check — #57 [po:plan-review] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #58 [po:plan-review] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #71 [po:plan-review] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #72 [po:triage] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #73 [po:plan-review] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #75 [po:triage] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — gate-check — #79 [po:plan-review] — no human response, skipped
+2026-03-29T00:38:38Z — board.scan — #68 [bug:in-progress] — all 4 subtasks at po:merge, waiting for human merge
+2026-03-29T00:38:38Z — board.scan — no actionable items — all waiting on human gates
+2026-03-29T00:38:38Z — board.scan — END
+2026-03-29T00:40:44Z — board.scan — START
+2026-03-29T00:40:44Z — board.scan — 17 issues found, 1 actionable (#71 po:plan-review has human rejection)
+2026-03-29T00:40:44Z — board.scan — dispatching po.review for #71
+2026-03-29T00:40:44Z — board.scan — END
+2026-03-29T00:49:50Z — board.scan — START (rescan #11)
+2026-03-29T00:49:50Z — board.scan — 8 non-done items, all human-gated, no actionable work
+2026-03-29T00:49:50Z — board.scan — END — LOOP_COMPLETE
+2026-03-29T00:51:22Z — board.scan — rescan #12 — no changes, all blocked on human gates — LOOP_COMPLETE
+2026-03-29T00:52:53Z — board.scan — rescan #13 — no actionable items, all blocked on human gates
+2026-03-29T00:54:17Z — board.scan — no changes, all blocked on human gates
+2026-03-29T00:58:05Z — board.scan — #73 po:plan-review — human approved — dispatching po.review
+2026-03-29T00:59:13Z — po.review — issue #73 plan approved by human, transitioned po:plan-review → bug:breakdown
+2026-03-29T01:04:05Z — board.scan — rescan #16 — 3 new subtasks (#84-#86) at dev:implement, dispatching #84
+2026-03-29T01:16:45Z — board.scan — auto-advance #84 arch:sign-off → po:merge
+2026-03-29T01:16:45Z — board.scan — dispatch dev.implement for #85 (subtask 2/3 of #73)
+2026-03-29T01:36:20Z — board.scan — auto-advance — #85 arch:sign-off → po:merge
+2026-03-29T01:36:44Z — board.scan — dispatch — #86 dev:implement → dev.implement
+2026-03-29T01:57:38Z — board.scan — rescan #20 — no changes, all blocked on human gates
+2026-03-29T01:59:16Z — board.scan — no actionable items, all blocked on human gates (7 PRs awaiting merge, 5 issues awaiting human response)
+2026-03-29T02:01:10Z — board.scan — no actionable items, all blocked on human gates (7 PRs unmgered, 5 issues awaiting response)
+2026-03-29T02:03:03Z — board.scan — rescan #23 — no changes, all blocked on human gates
+2026-03-29T02:04:38Z — board.scan — START (rescan #24)
+2026-03-29T02:04:38Z — board.scan — 0 actionable items, all blocked on human gates
+2026-03-29T02:04:38Z — board.scan — END — LOOP_COMPLETE
+2026-03-29T02:05:41Z — board.scan — #25 — no changes, all blocked on human gates
