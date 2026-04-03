@@ -1,12 +1,3 @@
 {
-  "loops": [
-    {
-      "id": "wise-deer",
-      "pid": 3088205,
-      "started": "2026-03-28T02:27:36.073778705Z",
-      "prompt": "# Objective\n\nAdvance all GitHub issues for the assigned project that are ready for action. Work i...",
-      "worktree_path": "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.worktrees/wise-deer",
-      "workspace": "/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.worktrees/wise-deer"
-    }
-  ]
+  "loops": []
 }

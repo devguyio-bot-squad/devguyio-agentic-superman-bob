@@ -25,3 +25,7 @@ Skip issues that are blocked or waiting on human gates.
 ## Work Location
 
 GitHub issues on the team repository, filtered by the assigned project's label.
+
+## IMPORTANT
+
+You MUST always use the github-project skill and the board-scanner skill.

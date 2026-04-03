@@ -1,36 +1,475 @@
-2026-03-28T02:02:49.775722Z  INFO bm::commands::brain_run: Brain multiplexer starting workspace=/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob acp_binary=claude-agent-acp
-2026-03-28T02:02:49.776957Z  INFO bm::commands::brain_run: Bridge adapter enabled — spawning reader and writer room_id=Some("!QRIgtydfxdru0Nr7K5:localhost") own_user_id=@superman-bob:localhost mode="locked"
-2026-03-28T02:02:49.804073Z  INFO bm::brain::bridge_adapter: Joined Matrix room room_id=!QRIgtydfxdru0Nr7K5:localhost
-2026-03-28T02:02:49.807272Z  INFO bm::brain::bridge_adapter: Bridge reader initial sync complete
-2026-03-28T02:02:49.825349Z  INFO bm::brain::heartbeat: Heartbeat timer started interval_secs=60
-2026-03-28T02:02:51.673930Z  INFO bm::brain::multiplexer: Brain multiplexer session started session_id=b8b2b1c0-9538-40f2-87a8-d20c4c270997
-2026-03-28T02:02:56.251601Z  INFO bm::brain::bridge_adapter: Injected bridge message into multiplexer sender=@bmadmin:localhost body_len=2
-2026-03-28T02:02:56.251638Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=human prompt_len=593
-2026-03-28T02:02:56.251709Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
-2026-03-28T02:02:58.720675Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
-2026-03-28T02:02:58.720743Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
-2026-03-28T02:03:49.825809Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=heartbeat prompt_len=551
-2026-03-28T02:03:49.825896Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
-2026-03-28T02:04:15.484355Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
-2026-03-28T02:04:15.484445Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
-2026-03-28T02:07:32.016706Z  INFO bm::brain::bridge_adapter: Injected bridge message into multiplexer sender=@bmadmin:localhost body_len=210
-2026-03-28T02:07:32.016741Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=human prompt_len=801
-2026-03-28T02:07:32.016788Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
-2026-03-28T02:10:11.004673Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
-2026-03-28T02:10:11.004731Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
-2026-03-28T02:11:42.858746Z  INFO bm::brain::bridge_adapter: Injected bridge message into multiplexer sender=@bmadmin:localhost body_len=16
-2026-03-28T02:11:42.858785Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=human prompt_len=607
-2026-03-28T02:11:42.858901Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
-2026-03-28T02:14:06.592931Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
-2026-03-28T02:14:06.593069Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
-2026-03-28T02:23:46.893949Z  INFO bm::brain::bridge_adapter: Injected bridge message into multiplexer sender=@bmadmin:localhost body_len=80
-2026-03-28T02:23:46.893975Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=human prompt_len=671
-2026-03-28T02:23:46.894087Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
-2026-03-28T02:24:58.072349Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
-2026-03-28T02:24:58.072423Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
-2026-03-28T02:35:28.118539Z  INFO bm::commands::brain_run: Received SIGTERM, shutting down brain
-2026-03-28T02:35:28.118645Z  INFO bm::brain::multiplexer: Brain multiplexer shutting down
-2026-03-28T02:35:28.118933Z  INFO bm::brain::bridge_adapter: Bridge writer stopping (multiplexer shut down)
-2026-03-28T02:35:28.118948Z  INFO bm::brain::heartbeat: Heartbeat timer shutting down
-2026-03-28T02:35:28.118953Z  INFO bm::brain::bridge_adapter: Bridge reader shutting down
-2026-03-28T02:35:28.118979Z  INFO bm::brain::event_watcher: Event watcher shutting down
+2026-03-30T21:35:23.381574Z  INFO bm::commands::brain_run: Brain multiplexer starting workspace=/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob acp_binary=claude-agent-acp
+2026-03-30T21:35:23.383265Z  INFO bm::commands::brain_run: Bridge adapter disabled (missing env vars), output will be dropped
+2026-03-30T21:35:23.384520Z  INFO bm::brain::heartbeat: Heartbeat timer started interval_secs=60
+2026-03-30T21:35:25.268262Z  INFO bm::brain::multiplexer: Brain multiplexer session started session_id=195f75e8-6f39-4c6a-8f81-b4bee8fab420
+2026-03-30T21:35:25.268380Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=594
+2026-03-30T21:35:25.268456Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:35:27.956080Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:35:27.956257Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=141
+2026-03-30T21:35:27.956399Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:35:30.424604Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:35:30.424658Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=140
+2026-03-30T21:35:30.424774Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:35:34.817847Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:35:34.817964Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=139
+2026-03-30T21:35:34.818007Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:35:42.447363Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:35:42.447511Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=138
+2026-03-30T21:35:42.447588Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:08.156099Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:08.156181Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=137
+2026-03-30T21:36:08.156306Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:11.309653Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:11.309708Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=136
+2026-03-30T21:36:11.309748Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:13.581625Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:13.581717Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=135
+2026-03-30T21:36:13.581833Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:14.809420Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:14.809499Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=134
+2026-03-30T21:36:14.809623Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:16.554503Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:16.554632Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=133
+2026-03-30T21:36:16.554679Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:17.884460Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:17.884562Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=132
+2026-03-30T21:36:17.884627Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:19.117151Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:19.117213Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=131
+2026-03-30T21:36:19.117264Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:20.348039Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:20.348123Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=130
+2026-03-30T21:36:20.348172Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:21.672857Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:21.672923Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=129
+2026-03-30T21:36:21.672976Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:26.280231Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:26.280346Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=128
+2026-03-30T21:36:26.280399Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:31.431622Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:31.431665Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=127
+2026-03-30T21:36:31.431699Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:33.837402Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:33.837531Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=126
+2026-03-30T21:36:33.837626Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:35.533342Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:35.533393Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=125
+2026-03-30T21:36:35.533446Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:37.661006Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:37.661111Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=124
+2026-03-30T21:36:37.661168Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:38.858039Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:38.858109Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=123
+2026-03-30T21:36:38.858173Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:40.047785Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:40.047872Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=122
+2026-03-30T21:36:40.047911Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:41.219474Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:41.219557Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=121
+2026-03-30T21:36:41.219623Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:42.643917Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:42.643961Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=120
+2026-03-30T21:36:42.644022Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:43.818221Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:43.818346Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=119
+2026-03-30T21:36:43.818403Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:45.123667Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:45.123763Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=118
+2026-03-30T21:36:45.123846Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:47.765838Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:47.765945Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=117
+2026-03-30T21:36:47.766019Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:50.106817Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:50.106883Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=116
+2026-03-30T21:36:50.107041Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:52.228908Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:52.228970Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=115
+2026-03-30T21:36:52.229024Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:53.473776Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:53.473839Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=114
+2026-03-30T21:36:53.473883Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:54.955681Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:54.955923Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=113
+2026-03-30T21:36:54.956011Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:56.105839Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:56.105951Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=112
+2026-03-30T21:36:56.106023Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:57.355216Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:57.355354Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=111
+2026-03-30T21:36:57.355448Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:58.569272Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:58.569335Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=110
+2026-03-30T21:36:58.569392Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:36:59.803610Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:36:59.803721Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=109
+2026-03-30T21:36:59.803772Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:01.389067Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:01.389097Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=108
+2026-03-30T21:37:01.389133Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:03.871543Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:03.871600Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=107
+2026-03-30T21:37:03.871664Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:05.083261Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:05.083328Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=106
+2026-03-30T21:37:05.083386Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:06.415707Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:06.415813Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=105
+2026-03-30T21:37:06.415887Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:08.639524Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:08.639561Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=104
+2026-03-30T21:37:08.639602Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:10.587547Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:10.587671Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=103
+2026-03-30T21:37:10.587740Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:11.874434Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:11.874552Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=102
+2026-03-30T21:37:11.874639Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:13.173391Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:13.173446Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=101
+2026-03-30T21:37:13.173518Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:14.694521Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:14.694645Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=100
+2026-03-30T21:37:14.694704Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:15.907830Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:15.907895Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=99
+2026-03-30T21:37:15.907949Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:17.094586Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:17.094650Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=98
+2026-03-30T21:37:17.094717Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:18.562654Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:18.562788Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=97
+2026-03-30T21:37:18.562876Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:19.749767Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:19.749833Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=96
+2026-03-30T21:37:19.749916Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:20.991796Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:20.991859Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=95
+2026-03-30T21:37:20.991897Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:22.616779Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:22.616867Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=94
+2026-03-30T21:37:22.616992Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:23.834260Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:23.834346Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=93
+2026-03-30T21:37:23.834393Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:26.663422Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:26.663538Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=92
+2026-03-30T21:37:26.663624Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:27.885353Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:27.885492Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=91
+2026-03-30T21:37:27.885554Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:29.341397Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:29.341464Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=90
+2026-03-30T21:37:29.341530Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:30.773739Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:30.773806Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=89
+2026-03-30T21:37:30.773923Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:32.023523Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:32.023662Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=88
+2026-03-30T21:37:32.023740Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:33.581398Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:33.581543Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=87
+2026-03-30T21:37:33.581651Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:36.778177Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:36.778337Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=86
+2026-03-30T21:37:36.778445Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:37.877493Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:37.877616Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=85
+2026-03-30T21:37:37.877787Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:41.310074Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:41.310154Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=84
+2026-03-30T21:37:41.310226Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:42.598360Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:42.598447Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=83
+2026-03-30T21:37:42.598525Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:44.175610Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:44.175663Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=82
+2026-03-30T21:37:44.175724Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:45.287343Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:45.287426Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=81
+2026-03-30T21:37:45.287510Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:49.060786Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:49.060888Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=80
+2026-03-30T21:37:49.060956Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:50.305864Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:50.305935Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=79
+2026-03-30T21:37:50.305965Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:51.662457Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:51.662626Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=78
+2026-03-30T21:37:51.662728Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:52.913469Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:52.913572Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=77
+2026-03-30T21:37:52.913610Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:54.157400Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:54.157468Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=76
+2026-03-30T21:37:54.157549Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:55.619237Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:55.619391Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=75
+2026-03-30T21:37:55.619524Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:57.078552Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:57.078697Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=74
+2026-03-30T21:37:57.078766Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:37:58.343080Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:37:58.343220Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=73
+2026-03-30T21:37:58.343287Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:00.342106Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:00.342243Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=72
+2026-03-30T21:38:00.342286Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:01.602723Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:01.602780Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=71
+2026-03-30T21:38:01.602828Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:04.333083Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:04.333202Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=70
+2026-03-30T21:38:04.333308Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:09.488256Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:09.488389Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=69
+2026-03-30T21:38:09.488428Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:11.054317Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:11.054389Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=68
+2026-03-30T21:38:11.054556Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:15.026078Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:15.026162Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=67
+2026-03-30T21:38:15.026237Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:16.447389Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:16.447517Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=66
+2026-03-30T21:38:16.447652Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:17.893627Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:17.893679Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=65
+2026-03-30T21:38:17.893750Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:19.122108Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:19.122235Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=64
+2026-03-30T21:38:19.122281Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:20.438972Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:20.439026Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=63
+2026-03-30T21:38:20.439081Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:23.102989Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:23.103140Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=62
+2026-03-30T21:38:23.103205Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:24.581662Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:24.581741Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=61
+2026-03-30T21:38:24.581911Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:25.887708Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:25.887758Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=60
+2026-03-30T21:38:25.887848Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:27.249525Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:27.249665Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=59
+2026-03-30T21:38:27.249737Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:28.560341Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:28.560418Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=58
+2026-03-30T21:38:28.560500Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:30.166676Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:30.166736Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=57
+2026-03-30T21:38:30.166801Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:31.574761Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:31.574834Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=56
+2026-03-30T21:38:31.574911Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:33.050795Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:33.050851Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=55
+2026-03-30T21:38:33.050902Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:34.388130Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:34.388245Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=54
+2026-03-30T21:38:34.388290Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:35.799072Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:35.799122Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=53
+2026-03-30T21:38:35.799178Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:38.235984Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:38.236046Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=52
+2026-03-30T21:38:38.236131Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:39.483321Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:39.483394Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=51
+2026-03-30T21:38:39.483474Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:41.953789Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:41.953905Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=50
+2026-03-30T21:38:41.953998Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:43.458749Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:43.458871Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=49
+2026-03-30T21:38:43.458913Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:46.953031Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:46.953111Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=48
+2026-03-30T21:38:46.953162Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:49.499681Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:49.499774Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=47
+2026-03-30T21:38:49.499976Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:50.782311Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:50.782409Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=46
+2026-03-30T21:38:50.782489Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:54.857011Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:54.857154Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=45
+2026-03-30T21:38:54.857266Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:56.585606Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:56.585758Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=44
+2026-03-30T21:38:56.585813Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:57.962646Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:57.962766Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=43
+2026-03-30T21:38:57.962820Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:38:59.333358Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:38:59.333503Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=42
+2026-03-30T21:38:59.333625Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:00.746860Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:00.746991Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=41
+2026-03-30T21:39:00.747118Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:03.854887Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:03.855004Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=40
+2026-03-30T21:39:03.855088Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:05.075521Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:05.075596Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=39
+2026-03-30T21:39:05.075654Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:06.529901Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:06.530016Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=38
+2026-03-30T21:39:06.530106Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:08.006277Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:08.006376Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=37
+2026-03-30T21:39:08.006452Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:09.510355Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:09.510436Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=36
+2026-03-30T21:39:09.510477Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:10.794113Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:10.794180Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=35
+2026-03-30T21:39:10.794226Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:12.437405Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:12.437542Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=34
+2026-03-30T21:39:12.437700Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:14.630905Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:14.630995Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=33
+2026-03-30T21:39:14.631112Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:15.962039Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:15.962188Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=32
+2026-03-30T21:39:15.962255Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:20.664309Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:20.664398Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=31
+2026-03-30T21:39:20.664472Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:22.435644Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:22.435700Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=30
+2026-03-30T21:39:22.435752Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:25.299772Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:25.299824Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=29
+2026-03-30T21:39:25.299851Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:27.757262Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:27.757306Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=28
+2026-03-30T21:39:27.757338Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:29.339612Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:29.339657Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=27
+2026-03-30T21:39:29.339711Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:30.585448Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:30.585509Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=26
+2026-03-30T21:39:30.585648Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:31.851583Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:31.851720Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=25
+2026-03-30T21:39:31.851829Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:33.972914Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:33.973016Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=24
+2026-03-30T21:39:33.973050Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:39.831180Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:39.831290Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=23
+2026-03-30T21:39:39.831367Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:42.412756Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:42.412849Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=22
+2026-03-30T21:39:42.412940Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:46.007746Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:46.007813Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=21
+2026-03-30T21:39:46.007879Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:47.897629Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:47.897694Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=20
+2026-03-30T21:39:47.897835Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:49.619549Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:49.619641Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=19
+2026-03-30T21:39:49.619728Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:51.456656Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:51.456768Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=18
+2026-03-30T21:39:51.456958Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:53.296662Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:53.296715Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=17
+2026-03-30T21:39:53.296751Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:54.692211Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:54.692270Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=16
+2026-03-30T21:39:54.692320Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:39:57.581051Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:39:57.581111Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=15
+2026-03-30T21:39:57.581197Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:00.695576Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:00.695709Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=14
+2026-03-30T21:40:00.695764Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:02.529165Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:02.529283Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=13
+2026-03-30T21:40:02.529351Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:04.048272Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:04.048327Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=12
+2026-03-30T21:40:04.048391Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:07.262878Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:07.262931Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=11
+2026-03-30T21:40:07.262957Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:11.142232Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:11.142279Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=10
+2026-03-30T21:40:11.142353Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:17.173448Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:17.173624Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=9
+2026-03-30T21:40:17.173691Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:18.639406Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:18.639467Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=8
+2026-03-30T21:40:18.639539Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:19.990640Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:19.990717Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=7
+2026-03-30T21:40:19.990791Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:21.841600Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:21.841767Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=6
+2026-03-30T21:40:21.841878Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:24.161685Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:24.161736Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=5
+2026-03-30T21:40:24.161852Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:26.554132Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:26.554307Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=4
+2026-03-30T21:40:26.554411Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:28.654862Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:28.654914Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=3
+2026-03-30T21:40:28.654965Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:30.088834Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:30.088911Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=2
+2026-03-30T21:40:30.088983Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:34.810657Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:34.810729Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=1
+2026-03-30T21:40:34.810797Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T21:40:36.727199Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T21:40:36.727306Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-30T23:48:02.384423Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=670
+2026-03-30T23:48:02.384518Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T23:48:07.260042Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T23:48:07.260068Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-30T23:51:03.384899Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=599
+2026-03-30T23:51:03.384984Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T23:51:06.087063Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T23:51:06.087200Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-30T23:53:26.384683Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=599
+2026-03-30T23:53:26.384745Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T23:53:29.046414Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T23:53:29.046477Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-30T23:56:16.385033Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=616
+2026-03-30T23:56:16.385188Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T23:56:18.723493Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T23:56:18.723525Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-30T23:59:13.384783Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=566
+2026-03-30T23:59:13.384872Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-30T23:59:16.027327Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-30T23:59:16.027447Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-31T00:01:28.384805Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=533
+2026-03-31T00:01:28.384905Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-31T00:01:30.749203Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-31T00:01:30.749247Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-31T00:03:23.384350Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=602
+2026-03-31T00:03:23.384449Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-31T00:03:26.230114Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-31T00:03:26.230167Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-31T00:05:21.385079Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=531
+2026-03-31T00:05:21.385193Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-31T00:05:24.024340Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-31T00:05:24.024400Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-31T00:07:30.384576Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=604
+2026-03-31T00:07:30.384668Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-31T00:07:33.651011Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-31T00:07:33.651129Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-03-31T00:10:56.384702Z  INFO bm::brain::multiplexer: Sending prompt to ACP priority=loop_event prompt_len=528
+2026-03-31T00:10:56.384817Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt task: sending request
+2026-03-31T00:10:59.138314Z  INFO connection{name="botminter"}: bm::acp::client: ACP prompt completed stop_reason=EndTurn
+2026-03-31T00:10:59.138375Z  INFO bm::brain::multiplexer: Turn complete, draining queue stop_reason=EndTurn queue_len=0
+2026-04-01T16:49:35.348015Z  INFO bm::commands::brain_run: Received SIGTERM, shutting down brain
+2026-04-01T16:49:35.356896Z  INFO bm::brain::multiplexer: Brain multiplexer shutting down
+2026-04-01T16:49:35.358487Z  INFO bm::brain::heartbeat: Heartbeat timer shutting down
+2026-04-01T16:49:35.358504Z  INFO bm::brain::event_watcher: Event watcher shutting down

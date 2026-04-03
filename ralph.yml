@@ -1,8 +1,8 @@
 event_loop:
   prompt_file: PROMPT.md
-  max_iterations: 10000
-  max_runtime_seconds: 86400
-  persistent: true
+  max_iterations: 10
+  max_runtime_seconds: 7200
+#  persistent: true
 cli:
   backend: claude
 core:
@@ -1205,4 +1205,6 @@ skills:
     board-scanner:
       auto_inject: true
 RObot:
-  enabled: false
+  enabled: true
+  timeout_seconds: 120
+  telegram: {}

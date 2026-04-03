@@ -38,16 +38,21 @@ Eighteen specialized hats are available for different phases of work. Board scan
 ### Workspace Layout
 
 ```
-project-repo-superman/               # Project repo clone (CWD)
-  team/                           # Team repo clone
-    knowledge/, invariants/             # Team-level
-    members/{{member_dir}}/                    # Member config
-    projects/<project>/                 # Project-specific
+superman-bob/                            # Workspace root (CWD)
+  projects/                              # Project repo clones (git submodules)
+    botminter/                           #   — each has its own git remote/branches
+    hypershift/
+  team/                                  # Team repo clone
+    knowledge/, invariants/              #   Team-level
+    members/{{member_dir}}/              #   Member config
+    projects/<project>/                  #   Project-specific knowledge/invariants
   PROMPT.md → team/members/{{member_dir}}/PROMPT.md
   context.md → team/members/{{member_dir}}/context.md
-  ralph.yml                             # Copy
-  poll-log.txt                          # Board scan audit log
+  ralph.yml                              # Copy
+  poll-log.txt                           # Board scan audit log
 ```
+
+When referencing a project's git history, branches, or remotes, operate inside `projects/<project>/` — not the workspace root.
 
 ### Knowledge Resolution
 

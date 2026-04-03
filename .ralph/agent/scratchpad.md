@@ -1,178 +1,121 @@
-# Scan 2026-03-30T19:09Z
+# Scratchpad
 
-## Board State (project/botminter)
+## 2026-04-03 Scan #1
 
-| # | Status | Title |
-|---|--------|-------|
-| 58 | po:plan-review | Ralph Orchestrator: onboarding and preflight hardcoded to Telegram |
-| 68 | bug:in-progress | bm dashboard probably broken and not built during cargo build |
-| 71 | po:plan-review | bm teams sync fails on workspaces with unpushed feature branches |
-| 72 | po:triage | Workspace git state management is fragile and error-prone |
-| 73 | bug:in-progress | Member workspace should include project number and assignment |
-| 75 | po:triage | Add a reopen workflow for issues that need to go back through |
-| 79 | po:plan-review | Workspace runtime artifacts (.ralph/) need configurable commit |
+### Board State (project 643, devguyio-agentic Board)
 
-## Auto-advance needed
-po:merge items: #80, #81, #82, #83, #84, #85, #86 → done + close
+**Actionable items (project/botminter labeled, non-done):**
 
-## Dispatch Plan
-After auto-advance, dispatch by priority:
-- Epic priority 1: po:triage → po.backlog (#72 first)
-- Epic priority 3: po:plan-review → po.review (#58, #71, #79)
-- Bug priority 2: bug:in-progress → bug.in_progress (#68, #73)
+| Issue | Title | Status |
+|-------|-------|--------|
+| #106 | Transition BotMinter to Fully Agentic SDLC | po:design-review |
+| #104 | Member directory name should not include role prefix | po:plan-review |
+| #72 | Workspace git state management is fragile | po:backlog |
+| #75 | Add a reopen workflow | po:backlog |
+| #89 | bm start defaults to brain mode | po:backlog |
+| #97 | Investigate generating profiles | po:backlog |
 
-First dispatch: po.backlog for #72
+**PRs at po:accept (need human review):**
+- PR #2, #3, #4 (botminter repo), PR #74 (team repo)
 
-## Hat: po.backlog — #72 (po:triage)
+**Auto-advance check:** No items at `arch:sign-off` or `po:merge`. Nothing to auto-advance.
 
-- Triage request comment already posted 2026-03-28T15:22:23Z
-- No human response found — issue stays in po:triage, waiting on human
-- Also noticed #75 is po:triage — should be dispatched next triage cycle
-- Next dispatch: po.review for #58, #71, #79 (po:plan-review items)
+### Dispatch Decision
 
-## Iteration — po.backlog.done for #72
+Epic priority table — first match: #106 at `po:design-review` → dispatch `po.review`
 
-Received: #72 waiting on human (triage request posted 2026-03-28, no response).
-Board re-scanned — auto-advance items (#80-#86) already done.
+This is a human review gate. The po_reviewer hat will check for a human response comment. If found, it acts. If not, it returns control (non-blocking).
 
-Remaining actionable (by priority):
-1. #75 po:triage → po.backlog (next triage item)
-2. #58, #71, #79 po:plan-review → po.review
-3. #68, #73 bug:in-progress → bug.in_progress
+### po.review — Issue #106 (po:design-review)
 
-Dispatching: po.backlog for #75
+**Human response found:** "rejected, added a comment on the PR" (2026-04-03T21:29:08Z)
 
-## Hat: po.backlog — #75 (po:triage)
+**PR #107 feedback (6 points):**
+1. Wrong assumption about early planning — `ralph plan` with AgentSOP was used from the start
+2. Ambiguous scope — unclear if changes are to a BotMinter profile, scrum-compact divergence, or ad-hoc
+3. Existing ADRs not accounted for
+4. Planning artifacts are a mess (acknowledged fact)
+5. Knowledge artifacts may not be the right place for ADRs/designs — open to rethinking
+6. AI slop — suggesting ralph.yml changes is wrong (it's an upstream project)
 
-- Triage request already posted 2026-03-28T15:49:23Z
-- No human response found — issue stays in po:triage, waiting on human
-- Next dispatch: po.review for #58, #71, #79 (po:plan-review items)
+**Operator guidance:** Think about BotMinter as a tool/framework. Dogfood BotMinter features to reach full agentic SDLC. Consider a new profile (e.g. "agentic team harness").
 
-## Iteration — po.backlog.done for #75
+**Actions taken:**
+- Posted rejection feedback comment on #106
+- Transitioned #106: po:design-review → arch:design
+- Architect must revise the design doc addressing all 6 points before resubmitting
 
-Received: #75 waiting on human (triage request posted 2026-03-28, no response).
-Both triage items (#72, #75) waiting on human — skip.
+## 2026-04-03 Scan #2 (po.review.done handling)
 
-Next by priority: po:plan-review (#58, #71, #79) → po.review
-Dispatching: po.review for #58 (first of three plan-review items)
+### Pending Event
 
-## Hat: po.review — #58 (po:plan-review, Bug)
+`po.review.done` — #106 design review rejected. Status now `arch:design`.
 
-- Issue type: Bug
-- Plan review request posted 2026-03-28T17:53:27Z by 📝 po
-- All 5 comments are bot-attributed (superman/qe/architect/po headers)
-- No human response found — issue stays in po:plan-review, waiting on human
-- Next dispatch: po.review for #71 (second plan-review item)
+### Dispatch Decision
 
-## Iteration — po.review.done for #58
+#106 is at `arch:design` → dispatch `arch.design` to the Designer hat.
+The designer must revise the design doc (PR #107) addressing all 6 rejection points:
+1. Wrong assumption about early planning
+2. Ambiguous scope
+3. Existing ADRs not accounted for
+4. Planning artifacts are a mess
+5. Knowledge artifacts placement for ADRs/designs
+6. AI slop (ralph.yml is upstream)
 
-Received: #58 waiting on human (plan-review posted 2026-03-28, no response).
-Next: po.review for #71 (second of three plan-review items)
-Dispatching: po.review for #71
+Operator guidance: Think of BotMinter as a tool/framework. Dogfood BotMinter features. Consider a new profile approach.
 
-## Hat: po.review — #71 (po:plan-review, Bug)
+## 2026-04-03 Scan #3 (arch.design — Designer hat)
 
-- Issue type: Bug
-- Plan review request (rev 2) posted 2026-03-29T00:46:28Z by 📝 po
-- Human response found: devguyio commented "approved" at 2026-03-30T17:08:07Z
-- **Action taken:** Approved → transitioned po:plan-review → bug:breakdown
-- Posted approval comment documenting the transition
-- Next dispatch: po.review for #79 (third plan-review item)
+### Actions Taken
 
-## Iteration — po.review.done for #71
+**Design doc revised (Revision 3)** — complete rewrite addressing all 6 rejection points:
 
-Received: #71 approved → transitioned to bug:breakdown.
+1. Planning history corrected — acknowledged `ralph plan` + AgentSOP from start
+2. Scope clarified — all changes are BotMinter product features via profile system
+3. Integrated all 11 existing ADRs (ADR-0001, 0002, 0007, 0008 directly referenced)
+4. Proposed canonical artifact organization (knowledge/ vs plans/ vs invariants/)
+5. Clarified knowledge = on-demand context, designs stay in knowledge/designs/
+6. Removed all ralph.yml change proposals; autonomy goes in botminter.yml
 
-Updated board state:
-- #58 po:plan-review (waiting on human)
-- #68 bug:in-progress
-- #71 bug:breakdown ← newly transitioned, needs arch.breakdown
-- #72 po:triage (waiting on human)
-- #73 bug:in-progress
-- #75 po:triage (waiting on human)
-- #79 po:plan-review ← not yet checked this scan cycle
+**Key reframing:** Entire design structured as BotMinter product features, not team-specific changes. Each gap maps to a profile enhancement. No upstream modifications.
 
-Priority dispatch (review statuses must never be skipped):
-- #79 po:plan-review → po.review (Epic priority 3, unchecked)
-- #71 bug:breakdown → arch.breakdown (Bug priority 6, actionable)
-- #68, #73 bug:in-progress → bug.in_progress (Bug priority 2, actionable)
+**Committed and pushed** to PR #107 branch (`epic-106-design-doc`)
+**Status transitioned:** arch:design → lead:design-review
+**Emitting:** `lead.review` for lead_reviewer to review before human gate
 
-Dispatching: po.review for #79 (last unchecked plan-review item)
+## 2026-04-03 Scan #4 (lead.review — Lead Reviewer hat)
 
-## Hat: po.review — #79 (po:plan-review, Bug)
+### Lead Review of Revision 3
 
-- Issue type: Bug
-- Plan review request posted 2026-03-28T19:08:04Z by 📝 po
-- All 4 comments are bot-attributed (superman/qe/architect/po headers)
-- No human response found — issue stays in po:plan-review, waiting on human
-- All three plan-review items now checked: #58 waiting, #71 approved+transitioned, #79 waiting
-- Remaining actionable: #71 bug:breakdown, #68 bug:in-progress, #73 bug:in-progress
+**Design quality invariant:** All 6 required sections present with substantive content.
+**6 rejection points:** All addressed — planning history corrected, scope explicit, ADRs integrated, artifact mess addressed, knowledge directory rationale clear, zero upstream changes.
 
-## Iteration — po.review.done for #79
+**Key improvement:** Reframing as BotMinter product features shipped through the profile system. Each gap maps to a profile enhancement, not team-specific changes.
 
-Received: #79 waiting on human (plan-review posted 2026-03-28, no response).
-All review gates now checked. Remaining actionable by bug priority:
-1. #68 bug:in-progress → bug.in_progress (Bug priority 2)
-2. #73 bug:in-progress → bug.in_progress (Bug priority 2)
-3. #71 bug:breakdown → arch.breakdown (Bug priority 6)
+**Verdict:** APPROVED. Status: lead:design-review → po:design-review.
+**Emitting:** `lead.approved` for coordinator to advance to human review gate.
 
-Dispatching: bug.in_progress for #68 (highest priority actionable item)
+## 2026-04-03 Scan #5 (lead.approved — Coordinator)
 
-## Hat: bug.in_progress — #68 (bug:in-progress, Bug)
+### Pending Event
 
-- All 4 subtasks complete and closed:
-  - #80: ✓ Make console build the default in all build paths
-  - #81: ✓ Add build-time and runtime diagnostics for console
-  - #82: ✓ Playwright e2e tests for console pages
-  - #83: ✓ CI pipeline integration for console e2e tests
-- **Action taken:** Posted completion comment, transitioned bug:in-progress → qe:verify
-- Emitting qe.verify for #68
+`lead.approved` — #106 design doc revision 3 approved by lead reviewer. Status now `po:design-review`.
 
-## Hat: qe.verify — #68 (qe:verify → REJECTED)
+### Dispatch Decision
 
-- Issue type: Bug with 4 sub-issues (complex bug path)
-- Verified all 4 acceptance criteria against actual codebase
-- **All subtasks (#80-#83) closed but implementation not present:**
-  - AC1 (default features): No `default = ["console"]` in Cargo.toml — NOT MET
-  - AC2 (build pipeline): No npm step in release.yml, no build.rs diagnostics — NOT MET
-  - AC3 (e2e tests): 76 Vitest component tests exist but NO Playwright e2e tests — PARTIAL
-  - AC4 (CI regression): No CI workflow for console e2e, no console-e2e recipe — NOT MET
-- **Action taken:** Posted detailed rejection comment, transitioned qe:verify → bug:in-progress
-- Emitting qe.rejected for #68 — subtasks need actual re-implementation
+#106 is at `po:design-review` (human review gate). Dispatch `po.review` to the Review Gater hat.
+The reviewer will check for a human response comment on the revised design (Revision 3).
+If human has responded → act on approval/rejection.
+If no response yet → non-blocking return, will re-check next scan cycle.
 
-## Hat: dev_implementer — #68 (bug:in-progress, re-implementation after QE rejection)
+## 2026-04-03 Scan #6 (po.review — Review Gater hat)
 
-QE rejection received — all 4 subtasks were closed but none were actually implemented.
-Re-implementing all 4 subtasks:
+### Issue #106 at po:design-review (Revision 3)
 
-### Changes made:
-1. **#80 — Make console build default in all build paths:**
-   - Added `default = ["console"]` to `crates/bm/Cargo.toml` features
-   - Added `console-build` dependency to `release-build-local` Justfile recipe
-   - Added Node.js setup + `npm ci && npm run build` step to `.github/workflows/release.yml`
+**Idempotency check:** No `📝 po` review request for revision 3 existed — only revision 2 request was present.
 
-2. **#81 — Build-time and runtime diagnostics:**
-   - Added `check_console_build()` to `crates/bm/build.rs` — emits `cargo:warning` when console feature enabled but `console/build/` missing
-   - Added `console_has_assets()` public function to `crates/bm/src/web/assets.rs`
-   - Added startup warning in `crates/bm/src/daemon/run.rs` when console assets are empty
+**Action:** Posted revision 3 design review request comment on issue #106.
 
-3. **#82 — Playwright e2e tests:**
-   - Created `console/playwright.config.ts` (headless Chromium, configurable base URL)
-   - Created `console/e2e/console-pages.spec.ts` — 11 tests covering asset embedding, root page, overview, members, member detail, process, and files pages
-   - Added `just console-e2e` recipe to Justfile
-   - Moved `playwright` from dependencies to devDependencies in package.json
-   - Added `@playwright/test` to devDependencies
+**Human response check:** No human response found after the review request (just posted).
 
-4. **#83 — CI pipeline integration:**
-   - Created `.github/workflows/ci.yml` with 3 jobs:
-     - `console-e2e`: builds binary → starts daemon → runs Playwright
-     - `console-unit`: vitest + svelte-check
-     - `clippy`: cargo clippy with console feature
-
-### Verification:
-- `cargo build -p bm` — compiles clean (console now default)
-- `cargo build -p bm --no-default-features` — compiles clean (opt-out works)
-- `cargo clippy -p bm --features console -- -D warnings` — clean
-- `cargo test -p bm --features console` — 121 tests pass
-- `npm test` (vitest) — 78 tests pass
-- Branch + commit + transition to dev:code-review needed
+**Result:** Non-blocking return. Sent progress notification via RObot. Emitting LOOP_COMPLETE — waiting for human review on next scan cycle.
