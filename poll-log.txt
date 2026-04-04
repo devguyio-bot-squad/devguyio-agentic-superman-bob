@@ -475,3 +475,7 @@
 2026-04-04T08:22:16Z — board.scan — END
 2026-04-04T08:53:53Z — lead.approved — Dispatching po.review for issues #106, #108-#113 at po:design-review
 2026-04-04T09:18:01Z — board.scan — #114 at po:design-review (human gate), #106 at arch:design (blocked on #114), no actionable items — LOOP_COMPLETE
+2026-04-04T11:54:08Z — board.scan — START
+2026-04-04T11:54:08Z — board.scan — 8 items found, 2 actionable (#114 po:design-review, #106 arch:design)
+2026-04-04T11:54:08Z — board.scan — dispatch: #114 → po.review (priority 2)
+2026-04-04T11:54:08Z — board.scan — END
