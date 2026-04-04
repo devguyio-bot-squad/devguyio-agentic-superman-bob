@@ -1,7 +1,7 @@
 event_loop:
   prompt_file: PROMPT.md
-  max_iterations: 10
-  max_runtime_seconds: 7200
+  max_iterations: 100
+  max_runtime_seconds: 36200
 #  persistent: true
 cli:
   backend: claude
