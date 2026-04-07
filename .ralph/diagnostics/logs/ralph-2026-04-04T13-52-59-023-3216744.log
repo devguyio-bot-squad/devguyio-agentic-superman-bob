@@ -1,3 +1,0 @@
-2026-04-04T11:52:59.025603Z  INFO ralph: Spawning subprocess for TUI mode child_args=["-c", "ralph.yml", "run", "--rpc"]
-2026-04-04T11:52:59.025751Z  INFO ralph: TUI subprocess stderr redirected to log file log_file=/home/botminter-test/.botminter/workspaces/devguyio-agentic/superman-bob/.ralph/diagnostics/logs/ralph-2026-04-04T13-52-59-025-3216744.log
-2026-04-04T11:52:59.025991Z  INFO ralph: TUI running in subprocess RPC mode

@@ -1,0 +1,2 @@
+{"ts":"2026-04-07T11:56:09.434761339+00:00","iteration":0,"hat":"loop","topic":"task.start","triggered":"planner","payload":"$(cat PROMPT.md). Start with #122, that is TOP priority"}
+{"payload":"Issue #122: Backport controlPlaneVersion status (hypershift PR #7887) to release-4.21 and release-4.20. Merge commit: 825ff5a3a70ef34618e537da5de4bfbb418d24bc. Project: hypershift.","topic":"dev.implement","ts":"2026-04-07T11:57:47.510880378+00:00"}

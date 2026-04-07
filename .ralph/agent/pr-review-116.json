@@ -1,0 +1,19 @@
+{
+  "commit_id": "1c50e372fb808d961be16629b415ac62adc7d832",
+  "event": "COMMENT",
+  "body": "**Adversarial review — revision 6 (REJECTED)**\n\nRev 5 findings fixed: §3.5 now uses \"whenever the plan file is written\" for both arch_designer and arch_planner, AC 5 verifies status:draft on revision, new AC for breakdown revision, §3.3 gains revision-after-rejection paragraph. All confirmed in diff. ✓\n\n**Two significant issues remain — both about implementation plans being left behind while designs and breakdowns got fixed.**\n\nThe rev 5 core finding was \"revision-after-rejection is underspecified.\" Rev 6 correctly fixed this for designs (§3.5, AC 5) and breakdowns (§3.3, §3.5, new AC). But implementation plans have the **exact same class of gap** — they were not touched by the rev 6 fixes. Additionally, two parent-status-update behaviors from §3.5 are missing from the step-by-step workflows in §3.3/§3.4 that hat implementers will follow.\n\nSee inline comments for specifics.",
+  "comments": [
+    {
+      "path": "projects/botminter/knowledge/designs/epic-116.md",
+      "line": 267,
+      "side": "RIGHT",
+      "body": "**(Significant) Implementation plan revision after code-review rejection is completely unspecified.**\n\nRev 6 added a \"Revision after rejection\" paragraph to §3.3 (breakdowns, line 232) and changed §3.5 arch_designer/arch_planner to say \"whenever the plan file is written (initial creation or revision after rejection).\" But §3.4 has NO equivalent revision paragraph, and §3.5 dev_implementer row (line 309) still says just \"Sets `status: in-progress`\" — missing the \"whenever written\" qualifier.\n\nWhen a story is rejected at `dev:code-review` and returns to `dev:implement`:\n- Does the implementer overwrite the existing impl plan? (§3.4 is silent)\n- Does `revision` increment? (No AC covers this)\n- What status does it get? Impl plans skip draft/in-review per §2.3 line 121 — do they stay at `in-progress`?\n\nThis is the **exact same class of underspecification** that was the core finding in rev 5, but only designs and breakdowns got the fix. Implementation plans were left with the identical gap.\n\n**Fix:** Add a \"Revision after rejection\" paragraph to §3.4 (parallel to §3.3 line 232), update §3.5 dev_implementer row with \"whenever the plan file is written\" qualifier, and add an AC for impl plan revision semantics."
+    },
+    {
+      "path": "projects/botminter/knowledge/designs/epic-116.md",
+      "line": 228,
+      "side": "RIGHT",
+      "body": "**(Significant) Parent-status-update behaviors from §3.5 are absent from the step-by-step workflows.**\n\n§3.5 arch_planner row says: \"Also updates the parent design's frontmatter to `status: in-progress` when starting breakdown work.\" But this 5-step workflow has no such step — step 1 says \"Read the design doc\" with no mention of updating its status.\n\nSame gap in §3.4: §3.5 dev_implementer row says \"Also updates the parent breakdown's frontmatter to `status: in-progress` when starting story work\" but the 3-step workflow (lines 264-267) has no such step.\n\nA hat implementer following these workflows as their build guide would miss both parent-status-update behaviors entirely. AC 8 and AC 10 verify these behaviors exist, but the workflows that define HOW the hats execute don't include them.\n\n**Fix:** Add a step to each workflow:\n- §3.3 step 1: \"Read the design doc from `designs/epic-<N>.md` and update its frontmatter to `status: in-progress`\"\n- §3.4 step 1: \"Read the story issue and its parent epic's breakdown; update the breakdown's frontmatter to `status: in-progress`\""
+    }
+  ]
+}

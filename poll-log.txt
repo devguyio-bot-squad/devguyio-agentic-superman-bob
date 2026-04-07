@@ -479,3 +479,63 @@
 2026-04-04T11:54:08Z — board.scan — 8 items found, 2 actionable (#114 po:design-review, #106 arch:design)
 2026-04-04T11:54:08Z — board.scan — dispatch: #114 → po.review (priority 2)
 2026-04-04T11:54:08Z — board.scan — END
+2026-04-04T14:27:58Z — board.scan — START
+2026-04-04T14:27:58Z — board.scan — 8 items found, 2 with status
+2026-04-04T14:27:58Z — board.scan — dispatch: po.review for #114 (po:design-review)
+2026-04-04T14:27:58Z — board.scan — END
+2026-04-04T14:30:47Z — board.scan — START
+2026-04-04T14:30:47Z — board.scan — 8 items, #114 blocked (human gate), #106 actionable at arch:design
+2026-04-04T14:30:47Z — board.scan — dispatch arch.design for #106
+2026-04-04T14:30:47Z — board.scan — END
+2026-04-04T16:51:23Z — board.scan — START
+2026-04-04T16:51:23Z — board.scan — 7 issues at po:design-review (human gate), 6 issues null. Dispatching po.review for #106.
+2026-04-04T16:51:23Z — board.scan — END
+2026-04-04T16:53:16Z — po.review — #106 review request posted, no human response, all 7 issues at po:design-review gate — LOOP_COMPLETE
+2026-04-04T16:54:34Z — board.scan — 7 issues at po:design-review (human gate), 0 human responses, no actionable work
+2026-04-04T16:59:46Z — board.scan — START (task.resume)
+2026-04-04T16:59:46Z — board.scan — 13 items, 7 at po:design-review (human gate), 6 null — no actionable work
+2026-04-04T16:59:46Z — board.scan — END → LOOP_COMPLETE
+2026-04-04T17:02:03Z — board.scan — All 7 issues at po:design-review (human gate). No human responses. LOOP_COMPLETE.
+2026-04-04T17:03:21Z — board.scan — All 7 issues at po:design-review (human gate). No human responses. LOOP_COMPLETE.
+2026-04-04T17:04:16Z — board.scan — 7 issues at po:design-review (human gate), 0 human responses, LOOP_COMPLETE
+2026-04-04T17:05:46Z — board.scan — 7 issues at po:design-review (human gate), 6 at null, 0 actionable — LOOP_COMPLETE
+2026-04-04T17:06:51Z — board.scan — All 7 issues at po:design-review (human gate), no new comments, LOOP_COMPLETE
+2026-04-04T17:08:00Z — board.scan — All 7 issues at po:design-review (human gate). No actionable work.
+2026-04-04T17:08:54Z — board.scan — All 7 issues at po:design-review (human gate). No actionable work. LOOP_COMPLETE.
+2026-04-04T17:11:49Z — board.scan — Rollback: #114,#116-#120 po:design-review → lead:design-review (PO: inadequate lead reviews)
+2026-04-04T17:22:33Z — lead.review — #114 REJECTED: 7 inline PR comments on epic-114.md, 4 significant + 3 moderate findings. Status: lead:design-review → arch:design
+2026-04-04T17:36:29Z — lead.review — #114 REJECTED (rev 2): 3 significant + 1 moderate issues found (wrong comment syntax, non-test lines claim, semantic analysis claim, phantom crash tracking). 5 inline PR comments on PR #115.
+2026-04-04T17:49:16Z — lead.review — #114 rev 3 REJECTED — 4 findings (2 significant, 2 moderate), 4 inline PR comments on PR #115. Status: lead:design-review → arch:design
+2026-04-04T17:50:06Z — coordinator — Routing #114 revision 4 to arch.design (lead.rejected rev 3: 4 findings)
+2026-04-04T18:32:55Z — board.scan — START
+2026-04-04T18:32:55Z — board.scan — 13 items: #106,#114 po:design-review; #116-#120 lead:design-review; #108-#113 null
+2026-04-04T18:32:55Z — board.scan — dispatch: po.review for #106 (po:design-review, human gate)
+2026-04-04T18:32:55Z — board.scan — END
+2026-04-04T18:34:27Z — po.review — #106 at po:design-review — no human response, non-blocking return
+2026-04-04T19:38:13Z — coordinator — Routing #116 rev 6: lead.rejected rev 5 (3 findings on revision-after-rejection path) → arch.design
+2026-04-04T20:10:00Z — coordinator — routing lead.rejected #116 rev 8 → arch.design revision 9
+2026-04-04T20:44:33Z — lead.review — #117 REJECTED (rev 2): 2 significant + 1 moderate issues found (abandoned session drop, auto-advance format mismatch, regression scope mismatch). 3 inline PR comments on PR #115 (review ID 4058833800). Status: lead:design-review → arch:design
+2026-04-07T11:19:03Z — board.scan — START
+2026-04-07T11:19:03Z — board.scan — 8 actionable project-labeled items found
+2026-04-07T11:19:03Z — board.scan — dispatch: #104 po:plan-review → po.review
+2026-04-07T11:19:03Z — board.scan — END
+2026-04-07T11:21:32Z — board.scan — START
+2026-04-07T11:21:32Z — board.scan — project-labeled items: #104(po:plan-review), #106(lead:design-review), #114(lead:design-review), #122(dev:implement), #72,#75,#89,#97(po:backlog)
+2026-04-07T11:21:32Z — board.scan — no auto-advance candidates
+2026-04-07T11:21:32Z — board.scan — dispatch: #104 po:plan-review → po.review
+2026-04-07T11:21:32Z — board.scan — END
+2026-04-07T11:25:16Z — board.scan — START (4th iteration)
+2026-04-07T11:25:16Z — board.scan — #104 at human gate (8+ days), skipping per objective
+2026-04-07T11:25:16Z — board.scan — Dispatching #106 (lead:design-review) → lead.review
+2026-04-07T11:25:16Z — board.scan — END
+2026-04-07T11:33:19Z — dispatch — #122 dev:implement → dev.implement (hypershift backport)
+2026-04-07T11:40:12Z — board.scan — START
+2026-04-07T11:40:12Z — board.scan — 18 active issues found (3 po:design-review, 1 po:plan-review, 4 po:accept, 4 lead:design-review, 4 po:backlog, 1 dev:implement, 1 bug:investigate)
+2026-04-07T11:40:12Z — board.scan — dispatching po.review for #106 (po:design-review)
+2026-04-07T11:40:12Z — board.scan — END
+2026-04-07T11:57:42Z — board.scan — START
+2026-04-07T11:57:42Z — board.scan — #122 dev:implement → dispatching dev.implement
+2026-04-07T11:57:42Z — board.scan — END
+2026-04-07T12:40:00Z — board.scan — START
+2026-04-07T12:40:00Z — board.scan — #122 at dev:implement, dispatching dev.implement
+2026-04-07T12:40:00Z — board.scan — END
