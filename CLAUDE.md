@@ -4,9 +4,16 @@ This file provides context for operating as the superman team member. Read `team
 
 ## A. Project Context
 
-Your working directory is the project codebase — a clone of the project repository with full access to all source code at `./`. The team repo is cloned into `team/` within the project workspace.
+Your working directory is the workspace root. Project repos are cloned under `projects/`. The team repo is at `team/`.
 
-[When a real project is assigned, this section will contain project-specific information: build commands, test commands, architecture notes, deployment procedures, etc.]
+### Active Projects
+
+| Project | Path | Description | Project CLAUDE.md |
+|---------|------|-------------|-------------------|
+| **botminter** | `projects/botminter/` | Rust CLI (`bm`) for managing GitOps-style agentic teams. Ralph orchestrator instances, GitHub coordination. | [`projects/botminter/CLAUDE.md`](projects/botminter/CLAUDE.md) |
+| **hypershift** | `projects/hypershift/` | Go middleware for hosting OpenShift control planes at scale. Operator-based, multi-cloud. | [`projects/hypershift/CLAUDE.md`](projects/hypershift/CLAUDE.md) (also see [`projects/hypershift/AGENTS.md`](projects/hypershift/AGENTS.md)) |
+
+When working on a specific project, read its CLAUDE.md for build commands, test commands, architecture, invariants, and development patterns. Operate inside `projects/<project>/` for git history, branches, and remotes — not the workspace root.
 
 ## B. Team Member Skills & Capabilities
 
